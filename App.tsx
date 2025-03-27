@@ -3,6 +3,7 @@ import { useFonts, Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/
 import { GluestackUIProvider, Text, Center } from "@gluestack-ui/themed";
 
 import { config } from './config/gluestack-ui.config';
+import { Loading } from "@components/Loading";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -22,7 +23,7 @@ export default function App() {
           translucent 
         />
         
-        {fontsLoaded ? <Text >Solidário</Text> : <></>}
+        {fontsLoaded ? <Text >Solidário</Text> : <Loading />}
       </Center>
     </GluestackUIProvider>
   );
