@@ -14,7 +14,7 @@ export default function App() {
     <GluestackUIProvider config={config}>
       <Center 
         flex={1}
-        bg="#202024"
+        bg="$gray700"
       >
         <StatusBar 
           barStyle="light-content" 
