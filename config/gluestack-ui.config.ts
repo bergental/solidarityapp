@@ -452,7 +452,7 @@ export const gluestackUIConfig = createConfig({
       '16': 64,
       '20': 80,
       '24': 96,
-      '32': 128, 
+      '32': 128,
       '33': 148,
       '40': 160,
       '48': 192,
@@ -548,7 +548,6 @@ export const gluestackUIConfig = createConfig({
     fonts: {
       heading: 'Roboto_700Bold',
       body: 'Roboto_400Regular',
-      mono: undefined,
     },
     fontSizes: {
       '2xs': 10,
